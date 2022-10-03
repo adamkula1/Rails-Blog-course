@@ -1,0 +1,29 @@
+/**
+ * GENERAL
+ */
+ body {
+	padding: 2rem;
+	min-height: 100vh;
+	background-image: linear-gradient(to right, rgb(248, 113, 113), rgb(244, 114, 182));
+}
+
+.title {
+	font-weight: 900;
+}
+
+form .is-grouped {
+  margin-top: 2rem;
+}
+
+form .trix-content {
+  min-height: 12rem;
+}
+
+.edit-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .full_star {
+  color: orange;
+} */
