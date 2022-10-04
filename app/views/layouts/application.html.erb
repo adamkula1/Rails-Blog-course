@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ShopCard</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
+    <title>🧻 Le Toilette Shoppe</title>
+
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
   </head>
 
   <body>
     <header></header>
 
-    <%= render "partials/notice"%>
+    <%= render "partials/notice" %>
 
-    <main class="container">
+    <main class="container is-max-widescreen">
       <%= yield %>
     </main>
 
     <footer></footer>
-
   </body>
 </html>
